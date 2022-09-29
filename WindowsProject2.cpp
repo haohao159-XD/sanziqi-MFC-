@@ -439,7 +439,7 @@ void CMainDialog::showPLAYERNOW(bool playernow)
 		str0_ = strr0 + player2;
 
 	}
-	GetDlgItem(IDC_STATIC_PLAYERNOWBOOL)->SetWindowText(str0_.c_str());
+	GetDlgItem(IDC_STATIC_PLAYERNOWBOOL)->SetWindowText(str0_.c_str());//
 
 }
 
