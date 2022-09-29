@@ -98,7 +98,7 @@ void CMainDialog::OnBnClickedButtonSanziqi1()
 
 	if(PLAYERIO(!PLAYERNOW,arr, 0, 0))
 	{
-		GetDlgItem(IDC_BUTTON_SANZIQI1)->SetWindowText(TEXT("X"));
+		GetDlgItem(IDC_BUTTON_SANZIQI1)->SetWindowText(TEXT("X"));//
 	}
 	else 
 	{
